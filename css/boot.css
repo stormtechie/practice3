@@ -1,0 +1,30 @@
+*{
+box-sizing:border-box;
+}
+.container{
+    border:solid 1px red;
+}
+.container-fluid{
+    border:solid 1px blue;
+}
+.col-1{
+    border:solid 1px;
+}
+
+.col-sm-6, .col-8, .col-4
+{
+    border:solid 1px green;
+}
+/*div[class*=col]{
+    background-color:orange;
+    border:solid 1px;
+}*/
+body, html{
+    height:100%;
+}
+body{
+    background-image:url("https://sophosnews.files.wordpress.com/2017/05/shutterstock_296886146.jpg?w=780&h=408&crop=1");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
